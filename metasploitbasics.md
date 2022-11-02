@@ -8,9 +8,9 @@ MetaSploit is a Ruby based modular penetration testing platform that enables you
 
 In order to start metasploit in Linux, the following commands need to be entered first. 
 
-- service postgresql start ( to start the database) 
-- service postgresql status (to check the status of the database wether it has started or not) 
-- msfdb init (this is to initialize the database) 
-- msfconsole (this starts the msfconsole) 
+$ `service postgresql start` ( to start the database) 
+$ `service postgresql status` (to check the status of the database wether it has started or not) 
+$ `msfdb init` (this is to initialize the database) 
+$ `msfconsole` (this starts the msfconsole) 
 
 $ `sudo su-`
