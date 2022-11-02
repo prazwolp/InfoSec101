@@ -12,3 +12,5 @@ In order to start metasploit in Linux, the following commands need to be entered
 - service postgresql status (to check the status of the database wether it has started or not) 
 - msfdb init (this is to initialize the database) 
 - msfconsole (this starts the msfconsole) 
+
+$ `sudo su-`
