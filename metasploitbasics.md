@@ -22,3 +22,13 @@ $`msf6 >`
 
 In order to search for exploits, we need to use the search command. If we need to learn more about how to use the search options we can use the $`help search` command. This will give us examples as to how to search for things. 
 
+In order to use the search command first we need to understand about exploits. 
+
+CVE stands for Common Vulnerabilites and Exposures. CVE is a glossary that classifies vulnerabilities. The glossary analyzes vulnerabilities and then uses the Common Vulnerability Scoring System (CVSS) to evaluate the threat level of a vulnerability. A CVE Score is often used for prioritizing the security of vulnerability. 
+
+For example the Eternal Blue exploit is CVE 2017-0143 to CVE 2017-0148 are a family of cricital vulnerabilities in Microsoft SMBv1 server used in Windows 7, Windows Server 2008, Windows XP and even Windows 10 running on port 445. 
+
+EternalBlue itself concerns CVE-2017-0144, is a flaw that allows remote attackers to execute arbitraty code on a target system by sending specially crafted messages to the SMBv1 server. Even Though the patch from Windows was released, many have still not been patched. 
+
+![eternalblue](https://user-images.githubusercontent.com/93686063/199555403-98697072-1420-4b28-b49f-dd87ebb9ae12.JPG)
+
