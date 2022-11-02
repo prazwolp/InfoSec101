@@ -35,5 +35,8 @@ EternalBlue itself concerns CVE-2017-0144, is a flaw that allows remote attacker
 CWE stands for Common Weakness Enumeration, it refers to the type of softwarde weaknesses, rather than specific instances of vulnerabilities within products or systems. CWE works to stop vulnerabilities and bugs by educating developers on building better products that are not susceptible to exploitation. Programmers use CWE as a resource while writing code to prevent vulnerabilities during the development process. SOAR tools used CWE's to build policies and workflows to automate remediation. Some examples of CWE are as follows: 
 
 $` CWE 787 - out of bounds writing `
+
 $` CWE 79 - improperly neutralizing input when generating web pages (cross-site scripting) `
+
 $` CWE 89 - improperly neutralizing special elements in the SQL command (SQL injection) `
+
