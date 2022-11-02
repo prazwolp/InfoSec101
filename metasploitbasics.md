@@ -18,5 +18,5 @@ $ `msfconsole` (this starts the msfconsole)
 
 If all the commands are correct then we will get to the following command line 
 
-$`msf6`
+$`msf6 >`
 
