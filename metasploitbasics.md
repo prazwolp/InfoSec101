@@ -20,3 +20,5 @@ If all the commands are correct then we will get to the following command line
 
 $`msf6 >`
 
+In order to search for exploits, we need to use the search command. If we need to learn more about how to use the search options we can use the $`help search` command. This will give us examples as to how to search for things. 
+
