@@ -5,7 +5,9 @@ Inside msfconsole, when you type $`workspace`, it will tell you which workspace 
 
 If you need to create a new workspace then you type $`workspace -a test`. The asterisk symbol is pointing to the workspace that you are currently in. If you need to delete a workspace then $`workspace -d name`. If you want to change the workspace then you just type $`workspace name`
 
-We do this in order to keep track of all the work that we are doing without getting things too confusing between them. 
+We do this in order to keep track of all the work that we are doing without getting things too confusing between them. If we need to learn more about workspace $`help workspace`
+
+
 
 
 
