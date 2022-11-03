@@ -41,6 +41,9 @@ We go back to the msfvenom tab, we execute the payload. In order to do so, we ne
 $`./file1` Enter. 
 Now we go back to the msfconsole. The meterpreter shell has opened. It has connected to the Kali Machine. If we type $`getuid` we can see that we are inside the kali machine. we can also use $`sysinfo` we can see different things in there. 
 
+ 
+
+
 
 
 
