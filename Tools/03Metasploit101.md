@@ -23,7 +23,13 @@ First thing we need to do is set the rhost. To do so, we type in $`set rhost 10.
 
 
 
-`Exploiting a Tomcat Server`
+`Exploiting an Apache Tomcat Server`
+
+Apache Tomcat is an open-source Java Servlet and Java Server page container that lets developers implement an array of enterprise java applications. Tomcat also runs a HTTP web server environment in which Java code can run. 
+
+So from our enumeration that we did in the workspace, we see that the Apache Tomcat server port 8282 is open. 
+
+
 
 
   
@@ -33,7 +39,8 @@ First thing we need to do is set the rhost. To do so, we type in $`set rhost 10.
  
  
  
- 
+ ![open ports](https://user-images.githubusercontent.com/93686063/201373243-96e32798-b879-471e-b704-313bcd199a87.JPG)
+
 
 
 
