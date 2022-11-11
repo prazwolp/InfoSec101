@@ -29,19 +29,14 @@ Apache Tomcat is an open-source Java Servlet and Java Server page container that
 
 So from our enumeration that we did in the workspace, we see that the Apache Tomcat server port 8282 is open. 
 
-
-
-
-  
- 
- 
- 
- 
- 
- 
  ![open ports](https://user-images.githubusercontent.com/93686063/201373243-96e32798-b879-471e-b704-313bcd199a87.JPG)
 
+After we have run nmap in our target host, we get a list of the IP addresses and the ports that are open, so we can have an idea of the ports that can be exploited. 
+
+If we go to a browser in our kali machine and type in the ip address and port in the following way $`10.0.2.8:8282` This is the Tomcat server page, this is where the tomcat is listening. This would be an example of manual enumeration, we just put in the IP address and the port and we can see what is listening. 
+
+In our last example we used a wordlists but now we will create our own wordlists, this is an example of us already knowing the username and password or trying to guess the username and password based on the OSINT that we have done to accurately guess the password while we are trying to brute force. There are a lot of wordlists out there which can help us to crack passwords. Below is an example of the wordlists we have in Kali Linux with common words used to usernames and passwords. 
 
 
-
+![wordlists](https://user-images.githubusercontent.com/93686063/201375979-c97a72ce-4fa5-4619-8bc0-21a0e8ac0461.JPG)
 
