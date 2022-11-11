@@ -51,7 +51,7 @@ Among the options that we have, we will be using the $`mgr_login` module. Either
 
 ![run](https://user-images.githubusercontent.com/93686063/201382661-a9babdd5-0e20-404b-bbe1-ddbd03e30606.JPG)
 
-We can see in the picture above that it found a successful login for our Tomcat Server. Now we will use the credentials we found in order to break into the Tomcat Server. 
+We can see in the picture above that it found a successful login for our Tomcat Server. $`sploit` Now we will use the credentials we found in order to break into the Tomcat Server. 
 
 We hit $`back` in order to get to the msfconsole. We will look for an exploit to upload a shell to the Server. 
 
