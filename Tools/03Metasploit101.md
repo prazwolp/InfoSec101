@@ -35,8 +35,17 @@ After we have run nmap in our target host, we get a list of the IP addresses and
 
 If we go to a browser in our kali machine and type in the ip address and port in the following way $`10.0.2.8:8282` This is the Tomcat server page, this is where the tomcat is listening. This would be an example of manual enumeration, we just put in the IP address and the port and we can see what is listening. 
 
-In our last example we used a wordlists but now we will create our own wordlists, this is an example of us already knowing the username and password or trying to guess the username and password based on the OSINT that we have done to accurately guess the password while we are trying to brute force. There are a lot of wordlists out there which can help us to crack passwords. Below is an example of the wordlists we have in Kali Linux with common words used to usernames and passwords. 
+In our last example we used a wordlists but now we will create our own wordlists, this is an example of us already knowing the username and password or trying to guess the username and password based on the OSINT that we have done to accurately guess the password while we are trying to brute force. There are a lot of wordlists out there which can help us to crack passwords. Below is an example of the wordlists we have in Kali Linux with common words used to usernames and passwords. The wordlist can be either a .txt file or .csv file. 
+
 
 
 ![wordlists](https://user-images.githubusercontent.com/93686063/201375979-c97a72ce-4fa5-4619-8bc0-21a0e8ac0461.JPG)
+
+In order to create a wordlists we will go to the folder metsploit so that we can use the file in order to brute force the machine. We will open a new tab and use the nano command. $`nano hello.txt`. This will open a text file editor where we will use words which we think will be able to brute force the system successfullly. our magic word is $`sploit`. 
+
+Now we go back to metasploit and look for a scanner. We type in $`search type: aux tomcat`. Below are the results. 
+
+![tomcat aux](https://user-images.githubusercontent.com/93686063/201379322-41dd0e8c-fa91-45f1-b9bb-8aaec4d36156.JPG)
+
+
 
