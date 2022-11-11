@@ -51,5 +51,17 @@ Among the options that we have, we will be using the $`mgr_login` module. Either
 
 ![run](https://user-images.githubusercontent.com/93686063/201382661-a9babdd5-0e20-404b-bbe1-ddbd03e30606.JPG)
 
+We can see in the picture above that it found a successful login for our Tomcat Server. Now we will use the credentials we found in order to break into the Tomcat Server. 
+
+We hit $`back` in order to get to the msfconsole. We will look for an exploit to upload a shell to the Server. 
+
+$`msf6 > search type:exploit tomcat_mgr_upload` When we hit this we will find an exploit. We use that exploit. Once we get inside that exploit, like before we hit info in order to find what are the parameters that we need to set in order to exploit the server. 
+
+The usual are $`Rhosts` and $`Rports` that we need to set in order to get the shell. THis one however some extra things such as targets. It will say Available Targets and they are $`0 Java Universal` or $`1 Windows Universal` or $`2 Linux x86`. Since we are exploiting a Windows system we will be using $`1`. 
+
+We also need to set $`HttpPassword` and $`HttpUsername` and this is where the credential we found earlier that we found. $`sploit` is the word we will be using in order to exploit the system that we found in the earlier process. Now we need to change the Payload options. We will type $`set payload as reverse_http` and not $`reverse_tcp`. 
+
+Now in order to set the target we do $`Set Target 1`. we do options we can see the target change. If all of our parameters are correct. We hit $`run` We should get the meterpreter shell. 
+
 
 
