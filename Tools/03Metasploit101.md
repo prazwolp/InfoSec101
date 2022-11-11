@@ -47,5 +47,9 @@ Now we go back to metasploit and look for a scanner. We type in $`search type: a
 
 ![tomcat aux](https://user-images.githubusercontent.com/93686063/201379322-41dd0e8c-fa91-45f1-b9bb-8aaec4d36156.JPG)
 
+Among the options that we have, we will be using the $`mgr_login` module. Either type $`use 7` or $`use the explpit`. Once we are inside the module it will turn red. We will now do $`info` to see what the module does and what we need in order to exploit the module. We will first set the Rhost. $`set rhost 10.0.2.8` and we will set the Rport $`set rport 8282`. THe Rport has to be the port that the tomcat is listening on, if not we have to change it. By default mine was 8080, hence I changed it to 8282. We will also change the user_file to the file we created earlier with words we think will be able to break the machine. We will also set the user_as_pass file as True, so that it tries the same word as username and password. After we set all the parameters, we hit $`run`. The brute force begins and should display the following result. 
+
+![run](https://user-images.githubusercontent.com/93686063/201382661-a9babdd5-0e20-404b-bbe1-ddbd03e30606.JPG)
+
 
 
