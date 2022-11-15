@@ -9,3 +9,5 @@ Hassle-free management -> Leave most of the WordPress technicalities to your web
 
 $`WPScan` is a helpful tool which can help us to enumerate a Wordpress site. It can look for credentials as well as information about the WordPress Site. 
 
+After we ran nmap from our Kali Linux on our Windows Server 08, we can see that other ports are open as well, we will now exploit a wordpress site from the list below. 
+![open ports](https://user-images.githubusercontent.com/93686063/201990303-3fc5f9b6-b9eb-4d42-8930-7c002deaecaa.JPG)
