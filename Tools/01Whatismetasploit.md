@@ -39,3 +39,12 @@ $` CWE 787 - out of bounds writing `
 $` CWE 79 - improperly neutralizing input when generating web pages (cross-site scripting) `
 
 $` CWE 89 - improperly neutralizing special elements in the SQL command (SQL injection) `
+
+In order to update Kali linux we have to type in 
+
+$`sudo apt update && apt upgrade` 
+
+In order to remove the unnecessary packages we use 
+
+$`apt autoremove` 
+
