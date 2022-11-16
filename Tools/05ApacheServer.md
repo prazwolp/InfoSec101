@@ -3,4 +3,6 @@ File Servers, database servers, mail servers, and web servers use different kind
 Although we call Apache a web server, it is not a physical server, but rather a software that runs on an HTTP server. Its job is to establish a connection between a server and the browsers of website visitors (Firefox, Google Chrome, Safari, etc.) while delivering files back and forth between them (client-server structure). The Apache software is also compatible with any operating system, from Windows to Unix. 
 When a visitor wants to load a page on your website, for instance, the homepage or your “About Us” page, their browser sends a request to your server, and Apache returns a response with all the requested files (text, images, etc.).The server and the client communicate through the HTTP protocol, and the Apache web server is responsible for the smooth and secure communication between the two machines.
 Apache is highly customizable, thanks to its open-source infrastructure. Due to this, web developers and users can adapt its source code according to the type of website they’re creating. 
-In addition, Apache provides plenty of modules that allow server administrators to turn additional functionalities on and off. The Apache web server has modules for security, caching, URL rewriting, password authentication, and other features. To configure Apache, you’ll need to access .htaccess. This Apache configuration file is supported by all Hostinger web hosting plans. 
+
+
+
