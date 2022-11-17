@@ -1,1 +1,1 @@
-# Npower-Cyber-Training
+# Information Security Training
