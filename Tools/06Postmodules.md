@@ -14,3 +14,4 @@ In order to stay persistent in the victim's machine, we need to use a backdoor, 
 
 ![rdp guest](https://user-images.githubusercontent.com/93686063/202776599-29404b63-dc1a-4765-ac99-77f721586e01.JPG)
 
+Now we have what we need, we have been able to exfiltrate the data we needed, now we need to get out without a trace. First we will delete the user that we added as admin so the victim has no idea we were there. $`net user npower /delete` This will delete the user. 
