@@ -12,7 +12,7 @@
 
 [MITRE Att&ck Framework & Black Hills InfoSec Training]()
 
- -[https://github.com/prazwolp/IntroLabs.git]
+-[https://github.com/prazwolp/IntroLabs.git]
 
 
 
