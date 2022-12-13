@@ -32,9 +32,9 @@
 
 
 
-[MITRE Att&ck Framework & Black Hills InfoSec Training]()
+[MITRE Att&ck Framework & Black Hills InfoSec Training](https://github.com/prazwolp/IntroLabs.git)
 
--[https://github.com/prazwolp/IntroLabs.git]
+
 
 
 [Intro_Class_1.pdf](https://github.com/prazwolp/InfoSec101/files/10212209/Intro_Class_1.pdf)
