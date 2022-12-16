@@ -5,5 +5,21 @@ The Beef project uses Github to track issues ad host its git repository. A read 
 In order to install it, we go to the terminal and type in `apt-get install beef-xss`. After the installation is complete, when we look for Applications, we will see  `Beef Start` & `Beef Stop`. Our login will be userename `Beef` and password `kali`. 
 
 `* Just in case you forget your password, open the file usr/share/beef-xss/config.yaml and look for the username and password` 
+
+
 ![beef](https://user-images.githubusercontent.com/93686063/208189542-df6105e3-b339-4cda-8442-a8312973eae0.JPG)
+
+First we will type in `10.0.2.10` which is the web server `owasp` and go to `XSS Stored`. When we go there, we just use any name and on the message board, we hit `Right click and Inspect element`, for `maxlength` we will do `100` instead of `50`. Once we do this, we go back to the Kali terminal and find the `hook` which we will use to connect to the OS that will be connecting to us. Below is a picture of the hook that we will use. 
+
+![hook](https://user-images.githubusercontent.com/93686063/208196633-2fb52de8-f5ce-4d06-a2de-08e5cce17751.JPG)
+
+We can see that, our Linux is hooked, now we will try to hook the Windows Server 08. Once, the website is opened on the Internet Explorer we can see that Windows server is hooked. Now that we have them all connected. Once it is hooked, we can see the details. For this example we will use `Social Engineering -> Pretty Theft`
+
+![beef2](https://user-images.githubusercontent.com/93686063/208197202-9e6311e6-3004-46ee-92b7-3ed3c047e68d.JPG)
+
+
+
+
+
+
 
