@@ -6,6 +6,6 @@ Once you download this, you will see a small fox on the extension tab and if you
 
 After we are done setting this up, we will open `Burpsuite` in Kali. Once we are inside burp we click on `Proxy`, after this we will go back to our browser and turn foxy proxy `ON`.  Go back to Burpsuite and click `Intercept is on` button, (it is weird, it will say Intercept is off when actually it is on). We go back to our browser and type in `http://burpsuite`. From here we will need to add the certificate. We will save the file and add that certificate on Firefox Options -> Privacy and Security -> Certificates. The certificate we need will be issued by `PortSwigger`. We click on that one and click `Edit Trust`. It should be clicked on `This certificate can identify websites.` It will let us capture encrypted traffic. 
 
-We will turn `Foxyproxy` off and go back to Burpsuite and turn Intercept on. yup 11:01
+We will turn `Foxyproxy` off and go back to Burpsuite and turn Intercept on. Once you turn it on and go to any browser, all the traffic will now be routed through Burpsuite in Kali Linux. 
 
 
