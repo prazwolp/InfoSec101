@@ -2,3 +2,5 @@ The OSI Model or the Open Systems Interconnection(OSI) model is a conceptual mod
 
 ![osimodel](https://user-images.githubusercontent.com/93686063/218511781-4caba4df-17a1-4936-8aa4-d775df3dcb31.JPG)
 
+
+
