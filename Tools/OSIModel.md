@@ -2,5 +2,16 @@ The OSI Model or the Open Systems Interconnection(OSI) model is a conceptual mod
 
 ![osimodel](https://user-images.githubusercontent.com/93686063/218511781-4caba4df-17a1-4936-8aa4-d775df3dcb31.JPG)
 
+The goal of OSI model is to understand how networking works between one host to another. 
+
+
+Physical layer ->  The goal is to transfer bits from one end to another, some examples of what helps transport these bits is Ethernet cable, coaxial cable and fiber cables. 
+
+D 
+N
+T
+S
+P
+A
 
 
