@@ -52,6 +52,8 @@ Tier 3, Information system, or IS, and Platform Technology, or PIT Systems, cons
  
  ![DOD IT](https://user-images.githubusercontent.com/93686063/219732985-97252184-737e-40c4-99eb-65a41927af8c.JPG)
  
+ DOD Information Technology refers to all DOD owned IT or DOD controlled IT that receives, processes, stores, displays, or transmits DOD information. The forms of DOD IT range in size and complexity from individual hardware and software products to stand-alone systems to massive computing environments, enclaves, and networks. IT products, services and PIT are not authorized for operation through the full RMF process. These types of IT must be securely configured in accordance with applicable DOD policies and security controls and undergo special assessment of their functional and security related capabilities and deficiences. 
+ 
  
 
   
