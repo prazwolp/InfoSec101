@@ -48,9 +48,11 @@ Tier 3, Information system, or IS, and Platform Technology, or PIT Systems, cons
    - All of the above ( A holistic approach takes into account all of the factors mentioned above) 
  
 
+ $`DOD Information Technology(IT)` 
  
-
-
+ ![DOD IT](https://user-images.githubusercontent.com/93686063/219732985-97252184-737e-40c4-99eb-65a41927af8c.JPG)
+ 
+ 
 
   
 
