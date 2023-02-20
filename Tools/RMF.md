@@ -80,7 +80,7 @@ The purpose of the categorize step is to inform organizational risk management p
 
 `Implement` 
 
-The purpose of the implement step is to implement the controls in the security and privacy plans for the system and for the organization and to document in a baseline configuration, the specific details of hte control implementation. 
+The purpose of the implement step is to implement the controls in the security and privacy plans for the system and for the organization and to document in a baseline configuration, the specific details of the control implementation. 
 
 `Assess` 
 
