@@ -88,7 +88,7 @@ The purpose of the assess step is to determine if the controls selected for impl
 
 `Authorize` 
 
-The purpose of the Authorize step is to provide organizational accountability by requiring a senior management official to determine if the security and privacy risk (including supply chain risk) to organizational operations and assets, individuals, other organizations, or the Nation based on the operation of a system or the use of common control, is acceptable. 
+The purpose of the Authorize step is to provide organizational accountability by requiring a senior management official to determine if the security and privacy risk (including supply chain risk) to organizational operations and assets, individuals, other organizations, or the Nation based on the operation of a system or the use of common control, is acceptable. Authorize steps include Information types, system registration, asset identification, system stakeholders. 
 
 `Monitor` 
 
