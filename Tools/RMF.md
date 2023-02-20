@@ -76,7 +76,32 @@ Prepare is the first key step in the RMF because of its effect on all other step
 
 `Categorize` 
 
-The purpose of the categorize step is to inform organizational 
+The purpose of the categorize step is to inform organizational risk management processes and tasks by determining the adverse impact to organizational operations and assets, individuals, other organizations, and the Nation with respect to the loss of confidentiality, intergrity and availability of organizational systems and the information processed, stored and transmitted by those systems. 
+
+`Implement` 
+
+The purpose of the implement step is to implement the controls in the security and privacy plans for the system and for the organization and to document in a baseline configuration, the specific details of hte control implementation. 
+
+`Assess` 
+
+The purpose of the assess step is to determine if the controls selected for implementation are implemented correctly, operating as intended, and producing the desired outcome with respect to meeting the security and privacy requirements for the system and the organization. 
+
+`Authorize` 
+
+The purpose of the Authorize step is to provide organizational accountability by requiring a senior management official to determine if the security and privacy risk (including supply chain risk) to organizational operations and assets, individuals, other organizations, or the Nation based on the operation of a system or the use of common control, is acceptable. 
+
+`Monitor` 
+
+The purpose of the Monitor Step is to maintain an ongoing situational awareness about the security and privacy posture of the information system and the organization in support of risk management decisions. 
+
+$`RMF and DOD IT Acquisition` 
+
+
+![dod it acquisition](https://user-images.githubusercontent.com/93686063/220175254-1896daa4-4ae6-4340-af42-70e11cf01f24.JPG)
+
+The RMF is designed to be complementary to and supportive of DOD's acquisition management system activities, milestones, and phases. RMF activities should be initiated as early as possible in the DOD acquisition process to increase security and decrease cost. Requirements development, procurement, and test and evaluation, also known as T&E, processess should be considered in applying the RMF to the acquisition of DOD IT. Threats to these systems should be designed consistent with the most severe risk to any individual component or subcomponent for consideration of requirements, acquisition, and testing and evaluation. 
+
+
 
 
 
