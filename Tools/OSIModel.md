@@ -15,7 +15,7 @@ The goal of OSI model is to understand how networking works between one host to 
 
 `Transport Layer (Layer 4)` -> Layer 4 is used to distinguish data streams when there are multiple services running at the same time. Layer 4 uses ports in order to address the data streams. There are 0-65535 ports and there two different types of ports, TCP and UDP. TCP favors reliability and UDP favors efficiency. When data arrives through the cables, it will have a layer 2 header and a layer 3 header and a layer 4 header which will now have information such as port number in order to figure out where the data is headed. 
 
-`Session Layer (Layer 5) -> In the TCP/IP Model, the upcoming layers are combined together to form an Application Layer. In the OSI model, however we will differentiate into 3 different layers.`  
+`Session Layer (Layer 5) -> In the TCP/IP Model, the upcoming layers are combined together to form an Application Layer. In the OSI model, however we will differentiate into 3 different layers; the Application, Presentation and Session.` 
 
 P
 
