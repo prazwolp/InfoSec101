@@ -15,10 +15,14 @@ The goal of OSI model is to understand how networking works between one host to 
 
 `Transport Layer (Layer 4)` -> Layer 4 is used to distinguish data streams when there are multiple services running at the same time. Layer 4 uses ports in order to address the data streams. There are 0-65535 ports and there two different types of ports, TCP and UDP. TCP favors reliability and UDP favors efficiency. When data arrives through the cables, it will have a layer 2 header and a layer 3 header and a layer 4 header which will now have information such as port number in order to figure out where the data is headed. 
 
-`Session Layer (Layer 5) -> In the TCP/IP Model, the upcoming layers are combined together to form an Application Layer. In the OSI model, however we will differentiate into 3 different layers; the Application, Presentation and Session.` 
+`Session Layer (Layer 5) -> In the TCP/IP Model, the upcoming layers are combined together to form an Application Layer. In the OSI model, however we will differentiate into 3 different layers; the Application, Presentation and Session.` This layer is responsible for opening and closing communication between the two devices. The time between when the communication is opened and closed is known as session. The session layer ensures that the session stays open long enough to transfer all the data being exchanged, and then promptly close the session in order to avoid wasting resources. The session layer also synchronizes data transfer with checkpoints, for example if a 100 MB data is being transferred, a session layer could set a checkpoint every 5 MB, if connection is dropped then the session could be resumed from the last checkpoint. 
 
-P
+`Presentation Layer (Layer 6) ->` This layer is primarily responsible for preparing data so that it can be used by the application layer; this layer is responsible for translation, encryption and compression of data. Two communicating devices communicating may be using different encoding methods, so Layer 6 is responsible for translating incoming data int a syntax that the application layer of the receiving device can understand. 
 
-A
+![layer 6](https://user-images.githubusercontent.com/93686063/220377602-01b6f9f4-bb79-4056-92c7-3518ed010b95.JPG)
+
+
+`Application Layer (Layer 7) ->` This is the only layer that directly interacts with data from the user. Software applications like web browsers and email clients rely on the application layer to initiate communications. The client software applications are not part of the application layer; rather the application layer is responsible for the protocols and data manipulation that the software relies on to present meaningful data to the user. Application layer protocols include HTTP as well as SMTP(Simple Mail Transfer Protocol is one of the protools that enables email communications). 
+
 
 
