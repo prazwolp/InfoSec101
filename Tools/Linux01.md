@@ -18,7 +18,10 @@
   before allowing someone to log in, a security system first receives their username and password and then checks it against a database before allowing access. 
   Attackers can exploit this fact by interfering with processes to access secure areas and content in what's known as a race condition attack. 
   
-  For the 
+  For the Try Hack Me room for privilege escalation, we will be using a tool called the `linux-exploit-suggester`. From the 
+  machine that we are in, we know that the current OS that we are in, it is vulnerable to the `dirtycow` exploit. The file that
+  we will be using in order to use the exploit `c0w.c` which is inside the `dirtycow` folder. we will compile the file with     `gcc`. We will type in `gcc -pthread c0w.c -o cow`. After this command we can see, the `cow` file. if we do `id` then, we 
+  can see what user we are. So now we will just ahead and execute the file `cow`. `./cow` is the way to run the exploit. 
 
  
  
