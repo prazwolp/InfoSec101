@@ -6,6 +6,14 @@
  "https://github.com/Gr1mmie/Linux-Privilege-Escalation-Resources"
  
  `Kernel Exploits Overview` 
- 
+  ![kernel](https://user-images.githubusercontent.com/93686063/221947968-acf303b0-14ae-4d0b-a849-e25db5e1a9a8.JPG)
+  
+  `What is a Kernel?` 
+  
+  Kernel lives between the applications and the hardware. It facilitates the interaction between hardware and software components works like a translator. 
+  
+  
+  
+
  
  
