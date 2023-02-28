@@ -10,10 +10,15 @@
   
   `What is a Kernel?` 
   
-  Kernel lives between the applications and the hardware. It facilitates the interaction between hardware and software components works like a translator. 
+  Kernel lives between the applications and the hardware. It facilitates the interaction between hardware and software components works like a translator. There   is a github by the name of Kernel Exploits (https://github.com/lucyoa/kernel-exploits). 
   
+  $`Dirty Cow Kernel Exploit` 
   
+  When looking for exploits online for any machine that we have, we need to look for an exploit which will give us root access, some exploits do not really get   us complete access. For example, a race condition privilege escalation attack would be a good exploit to look for. A race condition exploit for example, 
+  before allowing someone to log in, a security system first receives their username and password and then checks it against a database before allowing access. 
+  Attackers can exploit this fact by interfering with processes to access secure areas and content in what's known as a race condition attack. 
   
+  For the 
 
  
  
