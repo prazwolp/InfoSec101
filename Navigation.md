@@ -43,7 +43,7 @@
 
  [DOD InfoSec]()
   - [Risk Management Framework RMF](Tools/RMF.md)
-  - [Technical Implementation of Assessment and Authorization in the NISP](Tools/Scap&Stig.md)
+  - [SCAP Compliance Checker](Tools/Scap.md)
  
 
 [TCM Security]()
