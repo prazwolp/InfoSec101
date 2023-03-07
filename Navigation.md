@@ -4,7 +4,7 @@
   - [Stig Viewer](Tools/Stig.md)
   - [STIG Results](Tools/Stigresults.md)
   - [POA&M](Tools/Poam.md)
-  - [Special Access Programs](Tools/Spa.md)
+  - [Special Access Programs](Tools/Sap.md)
  
 
 [NPower InfoSec Training]()
