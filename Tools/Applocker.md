@@ -1,4 +1,4 @@
-AppLocker
+AppLocker (Black Hills Information Security Labs) 
 
 Applocker Instructions:
 
