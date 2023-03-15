@@ -1,1 +1,2 @@
-[attack_matrix_poster_2020.pdf](https://github.com/prazwolp/InfoSec101/files/10980047/attack_matrix_poster_2020.pdf)
+
+![mitre](https://user-images.githubusercontent.com/93686063/225316902-935ff25f-6ec2-48e6-bf02-1e1cc32c4eb5.JPG)
