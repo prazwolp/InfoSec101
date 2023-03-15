@@ -28,6 +28,7 @@
   - [MITRE ATT&CK](Tools/Mitre.md)
   - [Applocker](Tools/Applocker.md)
   - [Password Controls & Tools](Tools/Passwordtools.md)
+  - [Egress Traffic Analysis](Tools/Egress.md)
  
  [Black Hills Pdf](https://github.com/prazwolp/InfoSec101/files/10212209/Intro_Class_1.pdf)
 
