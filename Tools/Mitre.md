@@ -6,3 +6,4 @@ It is a globally-accessible knowledge base of adversary tactics and techniques b
 
 The framework consists of 14 tactics and categories consisting of "technical objectives" of an adversary. These categories are then further broken down into specific techniques and sub-techniques. 
 
+
