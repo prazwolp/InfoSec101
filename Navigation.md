@@ -33,7 +33,8 @@
  [Black Hills Pdf](https://github.com/prazwolp/InfoSec101/files/10212209/Intro_Class_1.pdf)
  
  [Try Hack me]()
-  -[Cyber Threat Intelligence](Tools/Threat.md)
+ 
+   - [Cyber Threat Intelligence](Tools/Threat.md)
   
  [OSI Model](Tools/OSIModel.md)
 
