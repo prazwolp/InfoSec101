@@ -25,4 +25,5 @@ The goal of OSI model is to understand how networking works between one host to 
 `Application Layer (Layer 7) ->` This is the only layer that directly interacts with data from the user. Software applications like web browsers and email clients rely on the application layer to initiate communications. The client software applications are not part of the application layer; rather the application layer is responsible for the protocols and data manipulation that the software relies on to present meaningful data to the user. Application layer protocols include HTTP as well as SMTP(Simple Mail Transfer Protocol is one of the protools that enables email communications). 
 
 
+![tcpip](https://user-images.githubusercontent.com/93686063/226691661-82d62781-7215-40e2-9e37-5079ae264a08.JPG)
 
