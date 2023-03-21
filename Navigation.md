@@ -39,6 +39,7 @@
  
    - [Cyber Threat Intelligence](Tools/Threat.md)
    - [Phishing Email](Tools/Phishing.md)
+   - [Cisco Talos Intelligence](Tools/CiscoTalos.md)
   
  [OSI Model](Tools/OSIModel.md)
 
