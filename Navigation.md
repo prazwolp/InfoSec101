@@ -33,6 +33,7 @@
   - [Applocker](Tools/Applocker.md)
   - [Password Controls & Tools](Tools/Passwordtools.md)
   - [Egress Traffic Analysis](Tools/Egress.md)
+  - [User Entity Behavior Analytics](Tools/Ueba.md)
  
  
  [Try Hack me]()
