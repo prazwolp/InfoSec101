@@ -71,4 +71,6 @@ UBA allows SOC analysts to seamlessly and easily:
 Adaptive information security architectures that incorporate this type of advanced analytics are better able to prevent, detect and respond to cyber attackers in today’s security landscape.
 
 
+![ueba2](https://user-images.githubusercontent.com/93686063/228331256-8548cab9-992c-43ea-983e-05f82bf40c0d.JPG)
+
 
