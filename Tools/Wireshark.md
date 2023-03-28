@@ -14,6 +14,9 @@ Wireshark is for example using a flashlight to look for something inside a cave.
 For our example we will be using a file called `magnitude_1hr.pcap`. The `.pcap` extension file are PCAP files which are data files created using a program. These files contain packets of data of a network and are used to analyze the network characterstics. They also contribute to controlling the network traffic and determininig network status. When we open the file, we will see the results in the following way. 
 ![magnitude](https://user-images.githubusercontent.com/93686063/228027704-12210eba-07c4-41b7-bb59-9b67c615434f.JPG)
 
+![colorconvo](https://user-images.githubusercontent.com/93686063/228122149-41414187-0799-42b0-b505-fa83b359a5d8.JPG)
+
+
 The top window shows the individual packets in order. The second window shows a "decode" of any packet that is selected. Among which any of the lines with a `>` can be expanded to further analyze where it will show you the packet and protocol value. The last window in Wireshark will show you the hex value for the packet. 
 
 Now click on `Statistics > HTTP > Requests` which will show you the various HTTP requests for the capture. 
