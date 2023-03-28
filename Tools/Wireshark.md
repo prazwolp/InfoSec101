@@ -23,3 +23,24 @@ Now click on `Statistics > HTTP > Requests` which will show you the various HTTP
 
 Now let us look at some `Conversations` under `Statistics` 
 
+![convo](https://user-images.githubusercontent.com/93686063/228115179-bb8f6d1a-d06a-4f30-b05d-ca7dbd3425b9.JPG)
+
+The above reference will let us know who is talking to whom. We will select IPv4, we will see two IP addresses which are talking to one another. 
+
+Click on the top of the packets column twice. `Packets A -> B` This is will give us a breakdown of who was chatting with what system the most. If we click on it again, it will be addressed accordingly, either in an ascending order or descending order. Now if we really want to know what those systems were saying to each other? We right click on a conversation and select `Apply as Filter > Selected > A <-> B` 
+
+![convo1](https://user-images.githubusercontent.com/93686063/228119715-619f354c-de93-4fab-8985-767095aee59e.JPG)
+
+We will see the following filter now, we will only see certain IP addresses, only the packet which meets the filter criteria will be displayed. Now if we right-click on any of the packets and select Follow > TCP Streams. 
+
+![convo2](https://user-images.githubusercontent.com/93686063/228120254-f279f0df-a819-46dc-8be9-44bf9ea5f1b9.JPG)
+
+If we go to the search bar and type in protocols then we will only see data from different protocols that are communicating with one another, for example we type in `ipv6`, we will only see ipv6. 
+
+![convo3](https://user-images.githubusercontent.com/93686063/228120956-a22280be-fc8d-43b3-ad95-7e5ed006aad2.JPG)
+
+This allows you to very quickly drill in on any specific protocols you are reviewing in a packet capture. Wireshark is a great tool but it does have some weaknesses. Wireshark cannot grab traffic from all of the other systems on the network under normal circumstances. On modern networks that use devices called switches, Wireshark (or any other standard packet-capturing tool) can only sniff traffic between your local computer and the remote system it is talking to. Wireshark can show malformed packets and apply color coding, it doesnt have actual alerts (`It is not an Intrusion Detection System`) Wireshark cannot help with decryption with regards to encrypted traffic. 
+
+
+
+
