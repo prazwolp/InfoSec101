@@ -31,5 +31,6 @@ We will pick `vsagent` in order to learn more about the things it is doing in th
 ![photo_2023-03-28_11-44-49](https://user-images.githubusercontent.com/93686063/228310538-8a2703cd-b275-485c-a510-47b75d6b63a2.jpg)
 
 
-This tool gives us an indpeth look at the connection and what it might be doing in the system. 
+This tool gives us an indpeth look at the connection and what it might be doing in the system. MITRE ATT&CK can be used in order to map out how things are connnected by the threat actor. 
+
 
