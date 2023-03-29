@@ -25,6 +25,7 @@
 - [How to use BeEF?](Tools/11Beef.md)
 - [Wireshark](Tools/Wireshark.md)
 - [TCPDump](Tools/Tcpdump.md)
+- [Splunk](Tools/Splunk.md)
 
 
 
