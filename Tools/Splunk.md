@@ -1,0 +1,2 @@
+Splunk is a software solution that falls under the category of Security Information and Event Management (SIEM). When you configure Splunk in your enterprise, you configure it to ingest data from a wide variety of sources, which then allows you to search through it. You can also create visualizations such as dashboards. Splunk has a number of server components that run on different platforms. You can also work with Splunk as a managed cloud service. Splunk also allows you to automate alert notifications. 
+
