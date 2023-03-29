@@ -29,6 +29,7 @@
 
 [Splunk Project]()
   - [Splunk](Tools/Splunk.md)
+  - [Deploying Splunk](Tools/Deploy.md)
   
 
 
