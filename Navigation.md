@@ -4,7 +4,7 @@
 [DOD InfoSec]()
   - [Risk Management Framework RMF](Tools/RMF.md)
   - [SCAP Compliance Checker](Tools/Scap.md)
-  - [Scap Compliance Checker Latest Edition](Tools/Scap1.md)
+  - [SCAP Compliance Checker Latest Edition](Tools/Scap1.md)
   - [Stig Viewer](Tools/Stig.md)
   - [STIG Results](Tools/Stigresults.md)
   - [POA&M](Tools/Poam.md)
