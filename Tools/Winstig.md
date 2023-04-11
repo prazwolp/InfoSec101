@@ -36,3 +36,18 @@ The following is the result when we try to put our machine's result against the 
 
 ![result](https://user-images.githubusercontent.com/93686063/231173847-8d6a007c-aa56-4435-bea6-714db714744f.JPG)
 
+First, we will focus on the CAT 1 vulnerabilities that we can mitigate as they are the most important ones. If we select a a vulnerability, it will tell us how we can mitigate the vulnerability and also a lot of other information such as how it is non compliant. We will focus on the `Vul ID V-220726` for this example. 
+
+![vulid](https://user-images.githubusercontent.com/93686063/231183789-1402614c-c5ba-4add-a343-b019803fa1e4.JPG)
+
+![sth](https://user-images.githubusercontent.com/93686063/231187247-ca262760-69ab-4710-ba48-7914a63eb06a.JPG)
+
+`The Data Execution Prevention (DEP) must be configured to at least OptOut. DEP prevents harmful code from running in protected memory locations reserved for Windows and other programs.` 
+
+![sth1](https://user-images.githubusercontent.com/93686063/231188811-19d9192e-7757-4963-b9d0-afeed6e6a206.JPG)
+
+![sth3](https://user-images.githubusercontent.com/93686063/231189656-d6ebb733-9ae5-48c3-8854-376987945588.JPG)
+
+Since we have corrected the issue, We will write in the comments section `Resolved as per Fixed Test` and on the Finding Details, we can outline `Not a finding. DEP is set to at least OptOut` and then go to Status and instead of `Open` pick ` Not a Finding`. This is how we manually removed a vulnerability that was out there. 
+
+
