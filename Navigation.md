@@ -7,6 +7,7 @@
   - [SCAP Compliance Checker Latest Edition](Tools/Scap1.md)
   - [Stig Viewer](Tools/Stig.md)
   - [STIG Results](Tools/Stigresults.md)
+  - [Windows 10 Stigging](Tools/Winstig.md)
   - [POA&M](Tools/Poam.md)
   - [Special Access Programs](Tools/Sap.md)
  
