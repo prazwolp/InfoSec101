@@ -60,15 +60,26 @@ If we get a result that is way below then we can automate some of the checks in 
 LGPO.exe is a command-line utility that is designed to help automate management of Local Group 
 Policy. It can import and apply settings from Registry Policy (Registry.pol) files, security templates, 
 Advanced Auditing backup files, as well as from formatted “LGPO text” files and Policy Analyzer 
-“.PolicyRules” XML files. It can export local policy to a GPO backup. It can export the contents of a 
+“.PolicyRules” XML files. 
+It can export local policy to a GPO backup. It can export the contents of a 
 Registry Policy file to the “LGPO text” format that can then be edited, and can build a Registry Policy file 
 from an LGPO text file. (The syntax for LGPO text files is described later in this document.)
 LGPO.exe has four command-line forms: for importing and applying settings to local policy – including to 
-Multiple Local Group Policy Objects (MLGPO)1
-; for creating a GPO backup; for parsing a Registry Policy 
+Multiple Local Group Policy Objects (MLGPO)1; for creating a GPO backup; for parsing a Registry Policy 
 file and outputting “LGPO” text; for producing a Registry Policy file from an LGPO text file.
+
 All output is written to LGPO.exe’s standard output, and all diagnostic and error information is written 
 to its standard error. Both can be redirected to files using standard command shell operations. To 
 support batch file use, LGPO.exe’s exit code is 0 on success and non-zero on any error.
 LGPO.exe does not support Group Policy Preferences (GPP) at this time.
+
+`In our case we used the /g path which imports settings from one or more group policy backups anywhere under the directory specified by path.` 
+
+Once we do both the gpo for computers and users, we will use the command `gpupdate /force`
+
+![update force](https://user-images.githubusercontent.com/93686063/231022848-2b32eab9-7f31-4a6c-be83-1a647c932b4f.JPG)
+
+After we do all of this, the scc tool should now show a lot higher score most probably in the upper 90's and the rest of the compliance we can complete through the STIG viewer. 
+
+
 
