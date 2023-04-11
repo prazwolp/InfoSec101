@@ -20,3 +20,19 @@ Anything above 90 is Green and we will now need to go in manually and make sure 
 
 ![win10](https://user-images.githubusercontent.com/93686063/231169216-278e4bac-8f0c-4730-9c5c-38d38ec6bf2c.JPG)
 
+Once we open the STIG Viewer, we will now download the `Manual STIG` for Windows 10. 
+
+![manualstig](https://user-images.githubusercontent.com/93686063/231170637-4d09b4a8-ff87-4639-a9c6-f4c9b3f759e2.JPG)
+
+
+In some cases, there might not be a stig for scap with some applications, in those cases we need to manually check for vulnerabilities and not automate the whole process.
+
+![manstig](https://user-images.githubusercontent.com/93686063/231171167-34a82b2b-bf43-4920-b3f4-deb22cdca4c1.JPG)
+
+Now using the Manual STIG, we will create a checklist, we will select the `Create Checklist - Check Marked STIG(s)`. We are creating a baseline for how we want the system to be, and now we will bring the results file from the SCAP Compliance check and put it against the baseline to see where we are deficient. As soon as we create a new checklist, we will also save that checklist so we can use it against other systems that we will be checking. 
+
+Now we will import the `XCCDF file` which is the result file from our previous SCAP scan to see how it matches with the checklist for the System to be compliant. 
+The following is the result when we try to put our machine's result against the checklist. 
+
+![result](https://user-images.githubusercontent.com/93686063/231173847-8d6a007c-aa56-4435-bea6-714db714744f.JPG)
+
