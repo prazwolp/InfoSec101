@@ -9,6 +9,7 @@
   - [STIG Results](Tools/Stigresults.md)
   - [Windows 10 Stigging](Tools/Winstig.md)
   - [Google Chrome Stigging](Tools/Google.md)
+  - [Microsoft Edge Stigging](Tools/Edge.md)
   - [POA&M](Tools/Poam.md)
   - [Special Access Programs](Tools/Sap.md)
  
