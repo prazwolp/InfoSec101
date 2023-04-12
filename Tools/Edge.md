@@ -14,3 +14,6 @@ The results of the Scan came out and we are 100% compliant. We can move on from 
 
 We will now import the `XCCDF` file and see what can be done in order to be fully compliant. Since the browser had all the security controls in place, we do not need to do anything about it. We can see the following result when we put our results in the stig viewer in comparison to the benchmark that we got from the document library. 
 
+The Result is as follows: 
+
+![ed4](https://user-images.githubusercontent.com/93686063/231461781-112716b4-9a3b-4ca7-82f6-57108a8058b6.JPG)
