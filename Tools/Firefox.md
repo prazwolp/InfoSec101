@@ -29,4 +29,14 @@ Once we are inside the LGPO folder in an elevated Command prompt, we will use th
 
 ![gpo3](https://user-images.githubusercontent.com/93686063/231785524-faaca7c0-f844-4c13-ab45-76c01a3005ad.JPG)
 
-We will get the following result, now that we have the following result, we will do a `gpupdate /force` in order to apply the policies. 
+We will get the following result, now that we have the following result, we will do a `gpupdate /force` in order to update the policies. 
+
+![gpo4](https://user-images.githubusercontent.com/93686063/231786713-ea3f8a42-5294-4db1-a3ab-274d0f1784fd.JPG)
+
+Now that we have updated the policies and used the LGPO tools, we can see a different result and a far better result for the same application. We are well above GREEN on the compliance and we can now run the Stig viewer to see if we can make any changes manually. 
+
+![gpo5](https://user-images.githubusercontent.com/93686063/231787214-fdedb6f6-79ee-4434-ab71-b0bc825baa74.JPG)
+
+![image](https://user-images.githubusercontent.com/93686063/231787484-0aaca316-4d0e-4d64-ad15-ef5a8e523dfe.png)
+
+
