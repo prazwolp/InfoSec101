@@ -39,4 +39,14 @@ Now that we have updated the policies and used the LGPO tools, we can see a diff
 
 ![image](https://user-images.githubusercontent.com/93686063/231787484-0aaca316-4d0e-4d64-ad15-ef5a8e523dfe.png)
 
+First we will need to import the STIG for Firefox and make sure we check that Stig and create a checklist and save the checklist so it only checkes for that particular application and not all of the ones we have on the STIG panel. 
+
+![ff](https://user-images.githubusercontent.com/93686063/231816765-a6a94578-8c17-4ded-a157-a8dd31e8dbda.JPG)
+
+After we have created the checklist to check our own application in our machine, we will import the `XCCDF` file from our latest results in the SCAP Compliance Checker. This is what the results look like. 
+
+![fr](https://user-images.githubusercontent.com/93686063/231817551-b524e9d9-acab-49d6-8ff7-e03874fa1838.JPG)
+
+
+
 
