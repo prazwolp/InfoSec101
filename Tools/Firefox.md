@@ -48,5 +48,18 @@ After we have created the checklist to check our own application in our machine,
 ![fr](https://user-images.githubusercontent.com/93686063/231817551-b524e9d9-acab-49d6-8ff7-e03874fa1838.JPG)
 
 
+Now for example we cannot be compliant on the one CAT II Open Vulnerability with `Vul ID -> V-251577` which according to the Rule Title is `Firefox must be configured so that DNS over HTTPS is disabled.` We will need to document this in the document (POA&M). 
+
+`POA&M stands for Plan of Actions and Milestones`. 
+
+` The purpose of the POA&M is to assist organizations in identifying, assessing, prioritizing, and monitoring the progress of corrective efforts for security weaknesses/deficiences/vulnerabilities found in programs and systems.` 
+
+`The POA&M is created as part of the 5th Step (Authorize System) in the 6-step Risk Management Framework(RMF) process and when common controls have been determined, through independent assessments, to be less than effective. The POA&M is maintained as part of the Security Authorization Package(formerly known as the Certification and Accredition, or C&A package.)` 
+
+Here is the link in order to know more about a POA&M and Template to document the vulnerability which cannot be fixed right now with the Firefox Browser. The website also lets you download a POA&M template in order to fill one out. 
+
+(https://www.cdse.edu/Portals/124/Documents/jobaids/cyber/CDSE_POAM_Final_Job_Aid.pdf)
+
+
 
 
