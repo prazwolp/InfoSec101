@@ -73,7 +73,7 @@ Here are a few things we filled out for the particular vulnerability which is st
   
   - `Weakness or Deficiency` This could be any program or system level information security vulnerability that poses an unacceptable risk of compromising CIA, in        our case it would be that `if we do not correct the security control CM-7, then there is an increase in risk to the platform by providing additional attack          vectors`. One can also just use the Rule Title from the Stig Viewer where for this particular control we can see `Firefox must be configured so that DNS over        HTTPS is disabled`.  
   
-  - `Security Control` are the controls that are listed in the NIST SP 800-53 and they directly relate to the weakness identified in the Weakness or Deficiency          column. `In our case, the security contol that is identified as a weakness is the NIST SP 800-53:: CM -7` CM is a set of Control Families that are listed in        the document NIST SP 800-53. `CM Stands for Configuration Management` 
+  - `Security Control` are the controls that are listed in the NIST SP 800-53 and they directly relate to the weakness identified in the Weakness or Deficiency          column. In our case, the security contol that is identified as a weakness is the NIST SP 800-53:: `CM -7` CM is a set of Control Families that are listed in          the document NIST SP 800-53. `CM Stands for Configuration Management` 
   
   - `Point of Contact` could be an organization or title of the position within the organization that is responsible for mitigating the weakness. 
   
