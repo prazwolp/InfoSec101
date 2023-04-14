@@ -96,4 +96,6 @@ Here are a few things we filled out for the particular vulnerability which is st
   - Delayed -> is when a deficiency/weakness continues to be mitigated after the original completion date has passed. 
   - Planned -> is when corrective actions are planned to mitigate the deficiency/weakness, but the actions have not yet been applied/implemented. 
   - Accepted -> is when an Authorizing Officer (AO) decides to accept the risk so in this one we will have to include the date when teh AO decided to accept the                     risk of an identified weakness (after AO received a recommnedation from the PM office along with a "Mitigation Strategy Report" addressing all                       implemented/inherited countermeasures and mitigating factors) and also a periodic review has to take place to review solutions to address the risk                   to eventually close out the finding when possible. 
+
+
 In our POA&M we selected `Ongoing` because we the deficiency is in the process of being mitigated and it has not yet exceeded the original scheduled completion date.  
