@@ -65,5 +65,27 @@ Below is an example of a POA&M we filled out in order to address the issue that 
 
 ![po](https://user-images.githubusercontent.com/93686063/232060988-3636804e-06b1-4b4f-a0d9-55f8336131bb.JPG)
 
+POA&M's are created as part 5 (Authorize) in the 6 step Risk Management Framework process. POA&M facilitates a disciplines and structured approach to mitigating risks in accordance with the priorities of the ISO. It is maintained throughout the system life cycle. 
 
+Here are a few things we filled out for the particular vulnerability which is still open. 
 
+  - `Item Identifier` is a unique identifier used to track and corelate weakness that are ongoing throughout quarterly submissions within the organization. 
+  
+  - `Weakness or Deficiency` This could be any program or system level information security vulnerability that poses an unacceptable risk of compromising CIA, in        our case it would be that `if we do not correct the security control CM-7, then there is an increase in risk to the platform by providing additional attack          vectors`. One can also just use the Rule Title from the Stig Viewer where for this particular control we can see `Firefox must be configured so that DNS over        HTTPS is disabled`.  
+  
+  - `Security Control` are the controls that are listed in the NIST SP 800-53 and they directly relate to the weakness identified in the Weakness or Deficiency          column. `In our case, the security contol that is identified as a weakness is the NIST SP 800-53:: CM -7` CM is a set of Control Families that are listed in        the document NIST SP 800-53. `CM Stands for Configuration Management` 
+  
+  - `Point of Contact` could be an organization or title of the position within the organization that is responsible for mitigating the weakness. 
+  
+  - `Resources required` is the estimated funding and or manpower resources required for mitigating the weakness. In our case, we will just put down `Engineers          needed`. 
+  
+  - `Scheduled Completion Date` is based on a realistic estimate of the amount of time it will take to procure/allocate the resources required for the corrective        action and implement/test the corrective action. In our case we put in `Q3 2023`. `ALWAYS ENTER EITHER THE ESTIMATED COMPLETION DATE OR N/A IF THE RISK IS          ACCEPTED`. If a security weakness is resolved before or after the originally scheduled completion date, put the actual completion date in the Status Field. 
+  
+  - `Milestones with Completion Date` are specific high level steps to be executed in mitigating the weakness and the estimated completion date for each step. 
+  
+  - `Changes to Milestones` is the new estimated completion date for a milestone and the reason for the change. 
+  
+  - `Weakness or Deficiency Identified by` is the source of the weakness, the reviewing agency or organization and the date that weakness was identified. The source      of the weakness could be Security Control assessment, Penetration Test, IG audit, Certification testing. 
+  
+  - `Risk Level` is the ranking that determines the impact of a vulnerability, if exploited to the system, data, and/or program. The risk levels could be Low,            Medium or High. In our case the contol is a Cat II issue so we will just select `Medium`. 
+  - 
