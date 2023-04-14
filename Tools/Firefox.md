@@ -61,5 +61,9 @@ Here is the link in order to know more about a POA&M and Template to document th
 (https://www.cdse.edu/Portals/124/Documents/jobaids/cyber/CDSE_POAM_Final_Job_Aid.pdf)
 
 
+Below is an example of a POA&M we filled out in order to address the issue that we are not able to fix at this point. 
+
+![po](https://user-images.githubusercontent.com/93686063/232060988-3636804e-06b1-4b4f-a0d9-55f8336131bb.JPG)
+
 
 
