@@ -3,7 +3,15 @@
 
 [DOD InfoSec]()
   - [Risk Management Framework RMF](Tools/RMF.md)
-      - [RMF Categorization Step](Tools/Categorize.md) 
+  
+      - [RMF Categorization Step](Tools/Categorize.md)
+      - [RMF Select Step](Tools/Select.md)
+      - [RMF Implement Step](Tools/Implement.md)
+      - [RMF Assess Step](Tools/Assess.md)
+      - [RMF Authorize Step](Tools/Authorize.md)
+      - [RMF Monitor Step](Tools/Monitor.md)
+  
+  
   - [SCAP Compliance Checker](Tools/Scap.md)
   - [SCAP Compliance Checker Latest Edition](Tools/Scap1.md)
   - [Stig Viewer](Tools/Stig.md)
