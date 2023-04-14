@@ -88,4 +88,6 @@ Here are a few things we filled out for the particular vulnerability which is st
   - `Weakness or Deficiency Identified by` is the source of the weakness, the reviewing agency or organization and the date that weakness was identified. The source      of the weakness could be Security Control assessment, Penetration Test, IG audit, Certification testing. 
   
   - `Risk Level` is the ranking that determines the impact of a vulnerability, if exploited to the system, data, and/or program. The risk levels could be Low,            Medium or High. In our case the contol is a Cat II issue so we will just select `Medium`. 
-  - 
+  
+  - `Estimated Cost` would be the estimated cost of correcting the weakness or deficiency. In our case, we will need to hire more engineers so we will put down a        base salary needed to hire more engineers to mitigate the system. 
+  - `Status` is the stage or state of the weakness in the corrective process cycle. We have to use one of these stages of the weakness in the corrective process          cycle. 
