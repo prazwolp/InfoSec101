@@ -3,7 +3,7 @@
 
 [DOD InfoSec]()
   - [Risk Management Framework RMF](Tools/RMF.md)
-  -   [dsadsadas]
+      - [RMF Categorization Step](Tools/Categorize.md) 
   - [SCAP Compliance Checker](Tools/Scap.md)
   - [SCAP Compliance Checker Latest Edition](Tools/Scap1.md)
   - [Stig Viewer](Tools/Stig.md)
