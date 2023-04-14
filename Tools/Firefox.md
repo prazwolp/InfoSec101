@@ -1,4 +1,4 @@
-Firefox is a popular browser that is used to access the Internet. For this particular check we will run the SCAP Compliance checker we will see if the browser is fit to use and it has no vulnerabilities that will affect the Confidentiality, Intergrity and Avaliability. 
+Firefox is a popular browser that is used to access the Internet. For this particular check we will run the SCAP Compliance checker to see if the browser is fit to use and it has no vulnerabilities that will affect the Confidentiality, Intergrity and Avaliability. 
 
 ![mf](https://user-images.githubusercontent.com/93686063/231775409-6d301a21-bb8a-4656-85b9-45a9aa36abf4.JPG)
 
