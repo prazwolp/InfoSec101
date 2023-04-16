@@ -21,6 +21,7 @@
   - [Microsoft Edge Stigging](Tools/Edge.md)
   - [Firefox Stigging & POA&M](Tools/Firefox.md)
   - [POA&M](Tools/Poam.md)
+  - [Authorization to Operation (ATO)](Tools/Authorize.md)
   - [Special Access Programs](Tools/Sap.md)
  
 
